@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formstyle.css">
+
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <a href="index.html">Go to Home Page</a>
+
+    <div>
+        
+
+        <p><img src="saylani-welfare.jpg" alt="logo"><br>
+            STUDENT REGISTRATION FORM
+        </p>
+        <br><br>
+
+    </div>
+
+    <div>
+        
+            <form action="form.html">
+                <br>
+
+                <label for="fname">FIRST NAME</label>
+                <input required type="text" name="fname" id="fname" maxlength="30" placeholder="Enter your First Name">
+                <span>(max 30 characters a-z and A-Z)</span> <br><br>
+
+
+                <label for="lname">LAST NAME</label>
+                <input required type="text" name="lname" id="lname" maxlength="30" placeholder="Enter your Last Name">
+                <span> (max 30 characters a-z and A-Z) </span> <br><br>
+                <label for="dob">DATE OF BIRTH</label>
+                <input required type="date" name="dob" id="dob"><br><br>
+                <label for="email">EMAIL ID</label>
+                <input required type="email" name="email" id="email" placeholder="Enter Email Address"><br><br>
+                <label for="mob">MOBILE NUMBER</label>
+                <input required type="tel" name="mob" id="mob" placeholder="Enter Mobile Number" maxlength="10">
+                <span>(10 digit number)</span><br><br>
+                <label for="gender">GENDER</label>
+                <input required type="radio" name="gender" value="Male" id="gender">Male
+                <input type="radio" name="gender" value="Female" id="gender">Female <br><br>
+                <label for="add">ADDRESS</label>
+                <textarea required name="add" id="add" cols="52" rows="10"></textarea><br><br>
+
+                <label for="city">CITY</label>
+                <input required type="text" name="city" id="city" maxlength="30">
+                <span> (max 30 characters a-z and A-Z) </span> <br><br>
+                <label for="pincode">PINCODE</label>
+                <input required type="tel" name="pincode" id="pincode" maxlength="6">
+                <span>(6 digit number)</span><br><br>
+                <label for="state">STATE</label>
+                <input required type="text" name="state" id="state">
+                <span>(max 30 characters a-z and A-Z)</span><br><br>
+                <label for="country">COUNTRY</label>
+                <input required type="text" name="country" id="country"> <br><br>
+                <label for="hobbies">HOBBIES</label>
+                <span>
+                    <input type="checkbox" name="drawing" id="hobbies">Drawing
+                    <input type="checkbox" name="singing" id="hobbies">Singing
+                    <input type="checkbox" name="dancing" id="hobbies">Dancing
+                    <input type="checkbox" name="sketching" id="hobbies">Sketching <br>
+                    <label for="others"></label>
+
+                    <input type="checkbox" name="others" id="hobbies">Others
+                    <input type="text" name="others" id="hobbies">
+                </span> <br><br>
+
+                <label for="qualification">QUALIFICATION</label>
+
+                <table>
+                    <tr>
+                        <td colspan="2" class="10"  >Sl.No.Examination</td>
+                        <td style="text-align: center;" >Board</td>
+                        <td style="text-align: center;" > Percentage</td>
+                        <td style="text-align: center;" >Year of Passing</td>
+                    </tr>
+
+                    <tr>
+                        
+                        <td colspan="2" class="10" > 1 &nbsp &nbsp &nbsp Class X</td>
+                        <td> <input type="text" name="class X"> </td>
+                        <td> <input type="text" name="class X"> </td>
+                        <td> <input type="text" name="class X"> </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td colspan="2"> 2 &nbsp &nbsp &nbsp Class XII</td>
+                        <td> <input type="text" name="class XII"> </td>
+                        <td> <input type="text" name="class XII"> </td>
+                        <td> <input type="text" name="class XII"> </td>
+
+                    </tr>
+
+                    <tr>
+                        <td colspan="2"> 3 &nbsp &nbsp &nbsp Graduation</td>
+                        <td> <input type="text" name="Graduation"> </td>
+                        <td> <input type="text" name="Graduation"> </td>
+                        <td> <input type="text" name="Graduation"> </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td colspan="2"> 4 &nbsp &nbsp &nbsp Masters</td>
+                        <td> <input type="text" name="Masters"> </td>
+                        <td> <input type="text" name="Masters"> </td>
+                        <td> <input type="text" name="Masters"> </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2"></td>
+                        
+                        <td style="text-align: center;" >(10 char max)</td>
+                        <td style="text-align: center;" >(upto 2 decimal)</td>
+                        <td></td>
+
+                    </tr>
+
+
+                </table>
+
+
+                <br><br>
+
+
+
+
+
+
+
+
+
+                <label for="courses">COURSES APPLIED FOR</label>
+                <span >
+                    <input type="radio" name="courses" id="courses" value="BCA">BCA
+                    <input type="radio" name="courses" id="courses" value="B.Com">B.Com
+                    <input type="radio" name="courses" id="courses" value="B.Sc">B.Sc
+                    <input type="radio" name="courses" id="courses" value="B.A">B.A
+                </span>
+
+
+
+                <br><br><br><br><br><br>
+
+
+                <input type="submit" name="submit" style="margin-left:360px;">
+                <input type="submit" name="reset" value="Reset">
+
+                <br><br>
+
+
+
+
+
+            </form>
+        
+
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
